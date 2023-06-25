@@ -1,0 +1,191 @@
+20:50:56.358 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+20:50:56.370 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:50:56.592 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:50:56.647 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:51:00.913 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+20:51:16.780 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+20:51:34.629 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, optimalHubUrl: hub-euw.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 066e8acd4f2822a7bab03cffb4e..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+20:51:35.197 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 6208, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 85a10b2e47461d0255904035728...}
+20:51:36.106 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2855}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 0ef66f45bcc07581cf3466133cb...}
+20:51:36.420 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nygpxg4hpngzgqbkrikmoixgvuuoyvnlr7v2ss3y to view build report, insights, and many more debugging information all at one place!
+
+20:51:37.260 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f7b2ce3762544ce4eaa79a92413c6576abfaf822
+20:51:37.260 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:51:38.328 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+20:52:22.634 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+20:52:22.647 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:52:22.855 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:52:22.904 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:52:26.918 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+20:52:31.400 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+20:52:44.541 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2903}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 3d0cb3dd16c9cc54403b5a330bc...}
+20:52:45.076 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, optimalHubUrl: hub-euw.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 43d1f1302df34b7faf0fdc217f3..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+20:52:50.341 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 14316, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: eeef71a5d63e5657233d65b35d9...}
+20:52:50.655 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/t7iciw2brrpotkqpks48zci9ils1hmsu0gahqtov to view build report, insights, and many more debugging information all at one place!
+
+20:52:51.459 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3462f15f7e1470eca0300d591276fa8f18153271
+20:52:51.459 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:52:52.601 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+23:31:55.868 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+23:31:55.881 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:31:56.102 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:31:56.144 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:32:00.584 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:32:05.428 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:32:48.921 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 12736, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+23:32:49.222 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/5d3twnwvhbbfkdmiddidab4daepzispdkc2dptvj to view build report, insights, and many more debugging information all at one place!
+
+23:32:50.098 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b57c0b851112398911e10c2cadb113280a4af6a5
+23:32:50.098 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:32:51.128 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+23:34:42.658 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+23:34:42.671 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:34:42.890 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:34:42.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:34:47.023 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:34:51.241 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:35:17.147 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, optimalHubUrl: hub-euw.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+23:35:17.669 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2898}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdpVersion: 114.0.5735.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+23:35:50.678 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 9020, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+23:35:51.020 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/1khmwwo2meb6chxptyncobmmahmn1q5iwjkrghxg to view build report, insights, and many more debugging information all at one place!
+
+23:35:51.907 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/58714cb6e03a2bef3bd677ba180662e162853dec
+23:35:51.907 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:35:52.937 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+17:17:04.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+17:17:04.251 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:17:04.448 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:17:04.480 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:17:08.755 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:17:13.983 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:17:27.498 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2850}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e847015f22853df8a7c94ad351e...}
+17:17:27.515 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, optimalHubUrl: hub-euw.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: bd86b92879d2de1315bd9de5829..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+17:17:32.385 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 13856, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: d5309c9d33fa07a1be8f95dbbdb...}
+17:17:32.704 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/fqyl8etebazekadhpbwhauvwhsrbieh54wmylfcz to view build report, insights, and many more debugging information all at one place!
+
+17:17:33.562 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/008904eb19b624479c21a609b316d158b71502c7
+17:17:33.563 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:17:34.628 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+18:14:16.393 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+18:14:16.405 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:14:16.602 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:14:16.637 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+18:14:20.748 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:14:25.285 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:14:39.588 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, optimalHubUrl: hub-euw.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: d3f5878b6a49b783edafa3dd66a..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+18:14:43.506 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2845}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 5879f3e14a8de3de7ab19c8bbad...}
+18:14:49.662 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 11796, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 80712f52f261613321aa046869b...}
+18:14:49.982 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/omkxboqn7aincdwfzibi51rpw0bqajnzr8nca4gt to view build report, insights, and many more debugging information all at one place!
+
+18:14:50.811 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/034f93774d78c0404cae9983d347130e86afdfe5
+18:14:50.811 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:14:51.868 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
+18:44:12.173 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+18:44:12.186 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:44:12.382 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:44:12.416 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+18:44:16.686 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:44:21.600 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:44:35.509 [tearDown@0] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.91, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:2898}, javascriptEnabled: true, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ffab3270c3629377e8ca4dd1fa8...}
+18:44:36.220 [tearDown@2] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, optimalHubUrl: hub-euw.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 87eece8a103bd93859129ae0cab..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+18:44:43.050 [tearDown@1] ERROR c.browserstack.utils.UtilityMethods - Mark Session Status failed - org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5ALG2RG', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"setSessionStatus","arguments":{"reason":"","status":"passed"}}, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 102.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220623063721, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 9684, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 3187db851cc00c045fea5931d18...}
+18:44:43.357 [main] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/lr0d1ipcvvtoqev95dl1zt9iwkkmivfcuqpbwgfj to view build report, insights, and many more debugging information all at one place!
+
+18:44:44.172 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/df142243226c63760023dc038351b537d8151e04
+18:44:44.172 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:44:45.286 [Thread-2] INFO  com.browserstack.LocalFactory - BrowserStack Local Stopped Successfully.
